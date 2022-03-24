@@ -19,6 +19,6 @@ public class logInController {
     @GetMapping("/try")
     public String handleTry(Model model) {
         model.addAttribute("Username", "fucker");
-        return "sign-in/success.html";
+        return "sign-in/success";
     }
 }
